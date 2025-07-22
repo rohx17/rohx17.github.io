@@ -264,6 +264,21 @@
             box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.2);
         }
 
+        /* Education timeline styles */
+        .education-dot {
+            background: var(--accent);
+            box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
+        }
+
+        .education-content {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.05), rgba(99, 102, 241, 0.05));
+            border: 2px solid rgba(59, 130, 246, 0.2);
+        }
+
+        .education-content h3 {
+            color: var(--accent);
+        }
+
         .timeline-date {
             position: absolute;
             top: 0;
@@ -483,7 +498,7 @@
 
     <!-- Experience Section -->
     <section id="experience" class="fade-in">
-        <h2 class="section-title">Professional Experience</h2>
+        <h2 class="section-title">Experience & Education</h2>
         <div class="timeline">
             <div class="timeline-item">
                 <div class="timeline-date">Jan 2025 - Present</div>
@@ -500,6 +515,19 @@
                     </ul>
                 </div>
             </div>
+            <div class="timeline-item education-item">
+                <div class="timeline-date">Aug 2023 - Dec 2025</div>
+                <div class="timeline-dot education-dot"></div>
+                <div class="timeline-content education-content">
+                    <h3>Master of Science in Electrical & Computer Engineering</h3>
+                    <h4 style="color: var(--accent); margin-bottom: 1rem;">Northeastern University | Boston, MA</h4>
+                    <ul style="color: var(--gray); padding-left: 1.5rem;">
+                        <li>GPA: 3.8/4.0</li>
+                        <li>Focus Areas: Embedded Systems, Real-time Systems, IoT</li>
+                        <li>Relevant Coursework: Advanced Embedded Design, Computer Architecture, Digital Signal Processing</li>
+                    </ul>
+                </div>
+            </div>
             <div class="timeline-item">
                 <div class="timeline-date">Jan 2023 - Jun 2023</div>
                 <div class="timeline-dot"></div>
@@ -511,6 +539,19 @@
                         <li>Optimized thermal camera firmware, reducing CPU usage from 95% to 70%</li>
                         <li>Debugged vehicle systems using CANalyzer and performed regression testing</li>
                         <li>Supported hardware prototyping with SolidWorks and electrical rework</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item education-item">
+                <div class="timeline-date">Aug 2019 - May 2023</div>
+                <div class="timeline-dot education-dot"></div>
+                <div class="timeline-content education-content">
+                    <h3>Bachelor of Technology in Electronics & Communication Engineering</h3>
+                    <h4 style="color: var(--accent); margin-bottom: 1rem;">Amrita School of Engineering | India</h4>
+                    <ul style="color: var(--gray); padding-left: 1.5rem;">
+                        <li>Graduated with Distinction</li>
+                        <li>Published IEEE paper on ML-based ECG classification</li>
+                        <li>Active in robotics club and hardware design projects</li>
                     </ul>
                 </div>
             </div>
@@ -649,4 +690,3 @@
     </script>
 </body>
 </html>
-Powerful, large model for comple
